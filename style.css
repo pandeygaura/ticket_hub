@@ -1,0 +1,172 @@
+/* Reset and Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background: #fff;
+}
+
+/* Navbar */
+.navbar {
+  background: #0a66c2;
+  color: white;
+  padding: 1rem 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #fdd835;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: url('https://source.unsplash.com/1600x900/?travel') no-repeat center center/cover;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  color: white;
+  text-align: center;
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  background: #fdd835;
+  color: #000;
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #fbc02d;
+}
+
+/* Sections */
+.section {
+  padding: 4rem 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.light {
+  background: #f9f9f9;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h4 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.card p {
+  color: #555;
+}
+
+/* Contact Section */
+.contact {
+  background: #0a66c2;
+  color: white;
+  text-align: center;
+}
+
+.btn-light {
+  margin-top: 1rem;
+  display: inline-block;
+  background: white;
+  color: #0a66c2;
+  padding: 0.75rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.btn-light:hover {
+  background: #f1f1f1;
+}
+
+/* Footer */
+.footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
