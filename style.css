@@ -318,6 +318,14 @@ nav a {
     text-decoration: none;
     margin: 0 10px;
 }
+.tourist-attractions a {
+    text-decoration: none;
+}
+
+.tourist-attractions a:hover {
+    color: #4CAF50;
+    text-decoration: underline;
+} 
 
 nav a:hover {
     text-decoration: underline;
@@ -358,4 +366,24 @@ footer {
     background: #4CAF50;
     color: white;
     margin-top: 30px;
+}
+
+section.bg {
+    background-image: url('Images/Images/home_slider.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#login_page
+{
+  text-align: center;
+  padding: 20px;
+  margin-top: 1rem;
+}
+
+#login_page img {
+  width: 150px;
+  height: auto;
+  text-align: center;
 }
