@@ -1,3 +1,7 @@
+* a {
+  color: white;
+  text-decoration: none;
+}
 /* Base Styles */
 :root {
   --primary-color: #300182;
@@ -386,4 +390,9 @@ section.bg {
   width: 150px;
   height: auto;
   text-align: center;
+}
+
+.form_required
+{
+  color: red;
 }
